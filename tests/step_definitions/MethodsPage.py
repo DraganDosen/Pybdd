@@ -20,10 +20,9 @@ class Methods:
      page = browser.new_page()
      yield page 
      page.close()
-    
-   
 
-
+     ##test
+        
     @given ("As an not logged user navigate to homepage https://www.kiwi.com/en/")
     def go_to_page(page):
      page.goto("https://www.kiwi.com/en/")    
